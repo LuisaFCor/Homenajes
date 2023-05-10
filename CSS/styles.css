@@ -9,22 +9,25 @@ body {
     background-color: #575656;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #000;
+
+header article {
+    width: 100%;
+    background-color: #fff;
     padding: 20px;
 }
 
 nav {
-    font-size: 20px;
-
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: #000;
 }
 
 nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding-left: 15px;
 }
 
 main {
@@ -32,9 +35,10 @@ main {
     flex-direction: column;
     align-items: center;
     color: #000000;
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(148, 148, 148);
     width: 1000px;
     margin: 0 auto;
+    border-radius: 8px;
 }
 
 h1, h2, h3 {
@@ -42,6 +46,11 @@ h1, h2, h3 {
 }
 
 h1 {
+    color: #000;
+    font-size: 2rem;
+}
+
+h2 {
     color: #fff;
 }
 
@@ -78,13 +87,31 @@ form {
 footer {
     text-align: center;
     padding: 30px;
+    color: #fff;
+}
+
+#biografia {
+    background-color: #000;
 }
 
 #biografia p {
     text-align: justify;
     padding: 20px;
+    font-size: 17px;
+    color: #fff;
 }
 
+#biografia h2 {
+    padding: 10px;
+}
+
+iframe {
+    width: 700px;
+}
+
+article h3 {
+    color: #fff;
+}
 
 
 
