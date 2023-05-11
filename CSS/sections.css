@@ -17,7 +17,7 @@
 form {
     background-color: #000;
     color: #fff;
-    width: 600px;
+    max-width: 600px;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -30,7 +30,7 @@ footer {
 }
 
 #biografia {
-    background-color: #000;
+    background-image: url(https://w.forfun.com/fetch/fd/fd77c328d2d53d51472ccc5ac12ba7c0.jpeg);
 }
 
 #biografia p {
@@ -45,9 +45,12 @@ footer {
 }
 
 iframe {
-    width: 700px;
+    max-width: 700px;
 }
 
 article h3 {
     color: #fff;
+}
+.des{
+    margin-top: 15px;
 }

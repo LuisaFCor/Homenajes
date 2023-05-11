@@ -9,7 +9,7 @@ nav {
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-items: center;
     padding: 15px;
     background-color: #000;
 }
@@ -23,5 +23,6 @@ nav a {
 @media (min-width: 768px) {
     nav {
         flex-direction: row;
+        justify-content: space-evenly;
     }
 }
