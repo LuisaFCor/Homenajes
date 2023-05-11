@@ -1,0 +1,53 @@
+#albums h2{
+    margin-top: 15px;
+}
+
+#albums h3{
+    margin-top: 15px;
+}
+
+#contacto {
+    margin-top: 20px;
+}
+
+#contacto fieldset{
+    border: none;
+}
+
+form {
+    background-color: #000;
+    color: #fff;
+    width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+
+#biografia {
+    background-color: #000;
+}
+
+#biografia p {
+    text-align: justify;
+    padding: 20px;
+    font-size: 17px;
+    color: #fff;
+}
+
+#biografia h2 {
+    padding: 10px;
+}
+
+iframe {
+    width: 700px;
+}
+
+article h3 {
+    color: #fff;
+}
