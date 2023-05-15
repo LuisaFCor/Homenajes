@@ -1,3 +1,11 @@
+/* Globales */ 
+
+:root {
+    --azul: #68bdd6;
+    --blanco: #fff;
+    --negro: #000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,18 +15,6 @@
 
 body {
     font-family: 'Crimson Text', serif;
-    background-color: #575656;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #000000;
-    background-color: rgb(148, 148, 148);
-    max-width: 1200px;
-    margin: 0 auto;
-    border-radius: 8px;
 }
 
 h1, h2, h3 {
@@ -26,8 +22,9 @@ h1, h2, h3 {
 }
 
 h1 {
-    color: #000;
+    color: #ffffff;
     font-size: 30px;
+    margin-top: 15px;
 }
 
 h2 {
@@ -39,12 +36,30 @@ h3 {
     font-size: 25px;
 }
 
+/* main */ 
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blanco);
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    background-image: url(https://w.forfun.com/fetch/fd/fd77c328d2d53d51472ccc5ac12ba7c0.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Parrafo e imagen */
+
 picture img{
     object-fit: contain;
     width: 50%; 
     margin: 50px auto;    
 }
-
 
 .alinear{
     display: flex;

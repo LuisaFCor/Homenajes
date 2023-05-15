@@ -1,10 +1,15 @@
+:root {
+    --azul: #68bdd6;
+    --blanco: #fff;
+    --negro: #000;
+}
+
 /* Navegacion */
 
-header article {
-    width: 100%;
-    background-color: #fff;
-    padding: 20px;
+header {
+    font-family: 'Crimson';
 }
+ 
 
 nav {
     width: 100%;
@@ -13,12 +18,12 @@ nav {
     flex-direction: column;
     align-items: center;
     padding: 12px;
-    background-color: #000;
+    background-color: var(--negro);
 }
 
 nav a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: var(--blanco);
     padding: 8px;
 }
 
@@ -46,59 +51,6 @@ nav a {
 }
 
 
-
-#contacto {
-    margin-top: 20px;
-}
-
-#contacto fieldset{
-    border: none;
-}
-
-form {
-    background-color: #000;
-    color: #fff;
-    max-width: 600px;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 20px auto;
-}
-
-form legend {
-    font-size: 18px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    color: #acacac;
-}
-
-.campos {
-    margin-bottom: 10px;
-}
-
-.campos label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    display: block;
-}
-
-.campos input, textarea {
-    width: 100%;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.campos button {
-    margin-top: 15px;
-    padding: 8px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: 100%;
-}
-
-
 @media (min-width: 768px) {
     .alinear-derecha {
         width: 200px;
@@ -106,17 +58,13 @@ form legend {
     }
 }
 
-
 footer {
     text-align: center;
     padding: 30px;
     color: #fff;
-}
-
-main {
-    background-image: url(https://w.forfun.com/fetch/fd/fd77c328d2d53d51472ccc5ac12ba7c0.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-size: 20px;
+    background-color: var(--negro);
+    font-family: 'Poppins'
 }
 
 #biografia p {
