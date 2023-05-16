@@ -27,19 +27,37 @@ a {
 }
 
 h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 18px 0 18px 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.fa {
+    color: var(--azul);
     font-size: 40px;
+    padding: 20px;
 }
 
 
 /* Navegacion */
 
-#header {
-    background-color: var(--blanco);
+#Inicio {
+    padding-top: 100px;
+    padding-bottom: 200px;
 }
 
-.header__texto {
+.Inicio__Iconos {
+    padding: 20px;
+}
+
+#header {
+    background-color: var(--blanco);
     text-align: center;
-    margin-top: 150px;
 }
 
 .barra {
@@ -53,6 +71,10 @@ h2 {
         justify-content: space-between;
         align-items: center;
         padding: 20px 80px 20px 80px; 
+    }
+
+    .Inicio__Titulo {
+    font-size: 60px;
     }
 }
 
@@ -76,3 +98,54 @@ h2 {
     color: var(--blanco);
     padding: 5px;
 }
+
+/* Grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-bottom: 50px;
+} 
+
+
+.grid img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Secciones */
+.artista {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion {
+    color: var(--negro);
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    padding: 6px;
+    text-align: center;
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+
