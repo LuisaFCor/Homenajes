@@ -116,6 +116,10 @@ h3 {
     border-radius: 10px;
 }
 
+.grid img:hover {
+    border: 5px solid var(--azul);
+}
+
 @media (min-width: 768px) {
     .grid {
         grid-template-columns: repeat(3, 1fr);
