@@ -86,12 +86,6 @@ picture img {
     background-color: var(--blanco);
 }
 
-.caja-2__contenedor {
-    display: grid;
-    gap: 10px;
-    width: 320px;
-}
-
 /* Check Remeber */
 
 .check-remember {
@@ -148,7 +142,7 @@ picture img {
 
 /* Media Querys */
 
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
     #iniciar {
         flex-direction: row;
     }
@@ -176,6 +170,12 @@ picture img {
 
     footer {
         display: none;
+    }
+
+    .caja-2__contenedor {
+        display: grid;
+        gap: 10px;
+        width: 300px;
     }
 }
 

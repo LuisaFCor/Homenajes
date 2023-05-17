@@ -43,6 +43,9 @@ h3 {
     padding: 20px;
 }
 
+.fa:hover {
+    color: var(--negro);
+}
 
 /* Navegacion */
 
@@ -51,7 +54,7 @@ h3 {
     padding-bottom: 200px;
 }
 
-.Inicio__Iconos {
+#Inicio__Iconos {
     padding: 20px;
 }
 
@@ -127,7 +130,7 @@ h3 {
 }
 
 /* Secciones */
-.artista {
+#artista {
     padding: 10px;
     border-radius: 10px;
 }
