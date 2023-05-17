@@ -50,16 +50,16 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--blanco);
     max-width: 100%;
     margin: 0 auto;
 }
 
 main {
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-degradado-cielo-pastel_23-2148917404.jpg?w=2000);
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-acuarela-verde-cal_1083-171.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 /* Parrafo e imagen */
 
@@ -67,7 +67,7 @@ picture img{
     object-fit: contain;
     width: 50%; 
     margin: 50px auto;
-    border: 5px solid var(--negro);    
+    border: 5px solid #ff7b00;    
 }
 
 .alinear{
