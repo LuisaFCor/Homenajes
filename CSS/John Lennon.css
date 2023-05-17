@@ -56,7 +56,7 @@ main {
 }
 
 main {
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-acuarela-verde-cal_1083-171.jpg);
+    background-image: url(https://media.istockphoto.com/id/1222088912/es/foto/fondo-suave-borroso-nubes-c%C3%BAmulos-en-una-neblina.jpg?s=612x612&w=0&k=20&c=dWBqlhBjFgce5vvoh9rjyiG4C6RqC8_oMPfHleT7Uf0=);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -67,7 +67,7 @@ picture img{
     object-fit: contain;
     width: 50%; 
     margin: 50px auto;
-    border: 5px solid #000000;    
+    border: 5px solid #0084ff;    
 }
 
 .alinear{
